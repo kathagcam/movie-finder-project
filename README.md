@@ -1,8 +1,8 @@
-🎬 Movie Finder - A Dynamic JavaScript Project
+🎬 **Movie Finder - A Dynamic JavaScript Project**
 
 A responsive, single-page web application for searching a large movie database. This project was built from scratch to demonstrate and practice modern JavaScript concepts, including DOM manipulation, state management, and asynchronous-style programming.
 
-✨ Features
+✨ **Features**
 
 Multi-Field Live Search: A single search bar that filters movies based on title, director, genres, and cast members.
 
@@ -18,7 +18,7 @@ Dual Event Handling: The search is triggered by both clicking the "Search" butto
 
 Defensive Coding: The code gracefully handles missing data (e.g., a movie with no director or genres) and provides clean fallback text (like "N/A").
 
-🚀 How to Run This Project Locally
+🚀 **How to Run This Project Locally**
 
 You can run this project in two ways.
 
@@ -56,7 +56,7 @@ python3 -m http.server
 Open your web browser and go to this address:
 http://localhost:8000
 
-💡 Key Learning Concepts
+💡 **Key Learning Concepts**
 
 This project was a fantastic exercise in "connecting the dots." The core of this application is built on the following JavaScript concepts:
 
