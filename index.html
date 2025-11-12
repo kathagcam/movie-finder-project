@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Finder Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="movies.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <header class="header">
+        <h1>Find a Movie</h1>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search by title, actor, genre...">
+            <button id="search-button">Search</button>
+        </div>
+    </header>
+
+    <main>
+        <div id="movie-container" class="movie-gallery">
+        </div>
+
+        <div class="pagination-controls" style="display: none;">
+            <button id="prev-button" disabled>&lt; Previous</button>
+            <span id="page-info"></span>
+            <button id="next-button">Next &gt;</button>
+        </div>
+
+    </main>
+</body>
+</html>
