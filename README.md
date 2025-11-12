@@ -43,32 +43,28 @@ Open your Mac Terminal.
 Navigate into your project folder using the cd command.
 
 # Example: if your folder is on your Desktop
-cd Desktop/MovieFinder
-
-
+```cd Desktop/MovieFinder```
 
 Start Python's built-in web server (this is the "waiter" we discussed):
 
-python3 -m http.server
-
-
+```python3 -m http.server```
 
 Open your web browser and go to this address:
-http://localhost:8000
+```http://localhost:8000```
 
 💡 **Key Learning Concepts**
 
 This project was a fantastic exercise in "connecting the dots." The core of this application is built on the following JavaScript concepts:
 
-DOM Manipulation (The "How"): Building the renderMovies() function from scratch using document.createElement(), element.setAttribute(), element.textContent, and container.append().
+- DOM Manipulation (The "How"): Building the renderMovies() function from scratch using document.createElement(), element.setAttribute(), element.textContent, and container.append().
 
-Complex Data Transformation (The "Prep"): Creating the filterMovies() function, which uses nested for...of loops to flatten complex objects with nested arrays into a single, searchable array (the "search card").
+- Complex Data Transformation (The "Prep"): Creating the filterMovies() function, which uses nested for...of loops to flatten complex objects with nested arrays into a single, searchable array (the "search card").
 
-Event Handling & "Conductor" Functions: Using addEventListener for both click and keydown events. Both events call a single "conductor" function (handleSearch) that is responsible for coordinating the other functions.
+- Event Handling & "Conductor" Functions: Using addEventListener for both click and keydown events. Both events call a single "conductor" function (handleSearch) that is responsible for coordinating the other functions.
 
-State Management (The "Brain"): Using global-like variables (currentMovieList, currentPage) to hold the application's "state," and having all functions read from and write to this single source of truth.
+- State Management (The "Brain"): Using global-like variables (currentMovieList, currentPage) to hold the application's "state," and having all functions read from and write to this single source of truth.
 
-Array Methods (The "Tools"):
+- Array Methods (The "Tools"):
 
 .filter(): As the main "bouncer" for the search.
 
